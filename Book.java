@@ -60,16 +60,12 @@ public class Book {
         }
     }
 
-    // ==============================
-    // 3. hitungRoyalti (1 parameter)
-    // ==============================
+    
     public double hitungRoyalti(double harga){
         return harga * 0.10;
     }
 
-    // ==============================
-    // 4. hitungRoyalti (OVERLOADING)
-    // ==============================
+
     public double hitungRoyalti(double harga, double persen){
         return harga * (persen / 100);
     }
